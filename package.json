@@ -1,0 +1,16 @@
+{
+  "name": "mocha-and-chai",
+  "version": "1.0.0",
+  "description": "First steps with mocha and chai https://www.codementor.io/davidtang/unit-testing-and-tdd-in-node-js-part-1-8t714s877",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --opts mocha.opts --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.5"
+  }
+}
