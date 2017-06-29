@@ -4,7 +4,7 @@
   "description": "First steps with mocha and chai https://www.codementor.io/davidtang/unit-testing-and-tdd-in-node-js-part-1-8t714s877",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --opts mocha.opts --watch"
+    "test": "mocha --opts mocha.opts"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,8 @@
     "nock": "^9.0.13",
     "sinon": "^2.3.5"
   },
-  "repository": "https://github.com/christof-vollrath/mocha-and-chai.git"
+  "repository": "https://github.com/christof-vollrath/mocha-and-chai.git",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
 }
